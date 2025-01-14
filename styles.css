@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive, monospace;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #7373736c;
+    background-image: url(./items/bgc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:110%;
+    background-attachment:fixed;
+    height: auto;
+}
+
+
+span {
+    font-weight: 900;
+}
+
+a,
+a:visited {
+    font-weight: bold;
+    color: #3da;
+    text-decoration: none;
+}
+
+svg {
+    fill: #3da; /* changes the color to red */
+}
+
+header, footer {
+    color: #3da;
+    background-color: rgb(85, 9, 9);
+    width: 100%;
+    display: flex;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+/* header */
+
+header {
+    top: 0;
+    z-index: 999;
+    padding: 1rem;
+    position: fixed;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 0 2rem;
+    min-height: 50px;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    flex-wrap: wrap;
+}
+
+.sect {
+    width: 50%;
+    color: white;
+    display: flex;
+    margin: 3%;
+    padding: 5% 5%;
+    background-color: rgba(6, 5, 5, 0.88);
+    border: solid 2px;
+    border-radius: 10vw;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    scroll-margin-block: initial;
+}
+
+.sect.title {    
+    width: 75%;
+    height: 20vh;
+    text-shadow: 2px 2px 2px #000;
+    background-color: #3da;
+    border-radius: 4vw;
+}
+
+.sect.text{
+    margin-top: 5%;
+    padding: 3%;
+    width: 75%;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+div.sect .imgs{
+    padding: 0;
+}
+
+.sect.icon{
+    width: 30%;
+    height: 50vh;
+    background-color: #3eb;
+}
+
+.sect h2{
+    position: relative;
+    left: -12%;
+    font-size: 4em;
+    color: #737373;
+}
+
+.sect.txt{
+    height: 3vh;
+    text-align: justify;
+}
+
+.nav{
+    position: relative;
+    top:-23px;
+    font-size: 3rem;
+    height: 3vh;
+}
+
+
+.nav .first, .nav .end{visibility: hidden;}

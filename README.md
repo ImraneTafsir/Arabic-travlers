@@ -1,5 +1,5 @@
 # Arabic-travlers
-project for my class:    https://apricot-mia-66.tiiny.site
+project for my class:    https://arabic-travellers.web.app
 
 
 
